@@ -3,6 +3,7 @@ import { personalInfo } from "@/lib/data";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import LanguagePicker from "./LanguagePicker";
 
 export default function GlassHeader() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -46,6 +47,7 @@ export default function GlassHeader() {
         </nav>
 
         <div className="flex items-center space-x-2">
+          <LanguagePicker />
           <ThemeToggle />
 
           {/* Mobile Menu Button */}
