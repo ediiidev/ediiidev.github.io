@@ -1,12 +1,13 @@
+
 export const personalInfo = {
-  name: "Lorem Ipsum",
-  location: "Dolor Sit Amet",
-  email: "lorem@ipsum.com",
-  github: "https://github.com/loremipsum",
-  linkedin: "https://linkedin.com/in/loremipsum",
-  profilePicture: "/profile.jpeg",
+  name: "Ediliani Kumquel",
+  location: "Caracas Venezuela",
+  //email: "lorem@ipsum.com",
+  github: "https://github.com/ediiidev",
+  linkedin: "http://www.linkedin.com/in/ediliani-kumquel-358043203",
+  profilePicture: "/profile.jpg",
   heroDescription:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "Ingeniera de sistemas con experiencia en desarrollo de aplicaciones web y movil, asistentes virtuales inteligentes, defensa técnica en preventa, postventa y capacitadora de las herramientas aprendidas. Me considero una persona proactiva, organizada, responsable con capacidad de resolución de problemas. Disponibilidad Inmediata",
 };
 
 export const workExperience = [
@@ -49,37 +50,37 @@ export const workExperience = [
 
 export const education = [
   {
-    institution: "Lorem Ipsum University",
-    location: "Lorem City",
-    degree: "BSc Lorem Ipsum",
-    period: "2015 - 2019",
+    institution: "Universidad Nacional Experimental Politecnica \"Antonio José de Sucre\" Vicerrectorado \"Luis Caballero Mejías\"",
+    location: "Caracas - Venezuela",
+    degree: "Ingeniera de Sistemas",
+    period: "2015 - 2023",
     achievements: [
-      "President of Lorem Ipsum Club",
-      "Organized multiple lorem events",
-      "Represented university in national competitions.",
-      "Graduated with honors.",
+      "Graduada con Honores:",
+      "Indice Uno",
+      "Segundo mejor Indice Academico de la promoción y de la especialidad de sistemas",
+      //"Graduated with honors.",
     ],
   },
 ];
 export const skills = {
   programmingLanguages: [
-    "LoremLang",
-    "IpsumScript",
-    "DolorLang",
-    "SitLang",
-    "AmetLang",
-    "ConsecteturLang",
+    "Python",
+    "JavaScript",
+    //"Next.js",
+    //"React",
+    //"AmetLang",
+    //"ConsecteturLang",
   ],
   frontendDevelopment: [
-    "LoremJS",
-    "IpsumJS",
-    "Dolor Native",
-    "Sit UI",
-    "Amet CSS",
+    "React",
+    //"IpsumJS",
+    //"Dolor Native",
+    //"Sit UI",
+    //"Amet CSS",
     "HTML",
     "CSS",
   ],
-  backendDevelopment: ["LoremNode", "IpsumExpress"],
+  backendDevelopment: ["Python", "NodeJS"],
   databaseAndStorage: ["LoremDB", "IpsumORM"],
   cloudAndDevOps: ["LoremCloud"],
   toolsAndServices: [
