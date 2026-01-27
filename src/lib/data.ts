@@ -57,48 +57,54 @@ export const skills = {
   programmingLanguages: [
     "JavaScript",
     "Python",
-    "n8n",
+    "TypeScript",
   ],
   frontendDevelopment: [
     "HTML5",
     "CSS3",
-    "React",
+    "Reactjs",
+    "Nextjs",
+    "Tailwind CSS",
   ],
   backendDevelopment: ["Python", "NodeJS"],
-  databaseAndStorage: ["SQL", "MySQL"],
+  databaseAndStorage: ["SQL", "MySQL", "PostgreSQL"],
   cloudAndDevOps: ["AWS, Ducker"],
   toolsAndServices: [
-    "LoremAuth",
-    "IpsumCMS",
-    "DolorAnalytics",
-    "SitValidator",
-    "AmetMonitor",
-    "ConsecteturPanel",
-    "AdipiscingTrigger",
+    "DANAConnect",
+    "Kore.ai",
+    "n8n",
+    //"SitValidator",
+    //"AmetMonitor",
+    //"ConsecteturPanel",
+    //"AdipiscingTrigger",
   ],
 };
 
 export const projects = [
   {
-    title: "Proximamente",
-    github: "https://github.com/loremipsum/project",
+    title: "AI Voice Studio SaaS",
+    github: "https://github.com/ediiidev/ai-voice-studio-app",
     description: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse.",
-      "Excepteur sint occaecat cupidatat non proident.",
+      "Configuración del Entorno y Tecnologías: Se utiliza Next.js 16 como marco principal, junto con Tailwind CSS para el diseño de la interfaz de usuario.",
+      "Gestión de Base de Datos: Se implementa Neon (PostgreSQL), una base de datos sin servidor (serverless) para almacenar datos de usuarios, proyectos y manejar créditos.",
+      "Autenticación de Usuarios: Se integra Better Auth, una solución gratuita que permite inicios de sesión mediante correo electrónico, contraseña y redes sociales.",
+      "Funcionalidad de Texto a Voz (TTS): El núcleo del proyecto es la generación de voces naturales mediante IA, con soporte para 22 idiomas diferentes, incluyendo español, japonés y francés.",
+      "Personalización de Voz: Se enseña cómo añadir emociones a las voces y cómo permitir que los usuarios carguen sus propios archivos de voz para proyectos personalizados.",
+      "Sistema de Monetización y Créditos: Se configura un sistema donde el uso de caracteres se traduce en créditos (por ejemplo, 100 caracteres equivalen a 1 crédito).",
+      "Procesamiento de Pagos: Se utiliza Polar para gestionar las suscripciones de los clientes, crear productos y aplicar códigos de descuento.",
+      "Despliegue (Deployment): Finalmente, se explica cómo desplegar la aplicación completa en Vercel, conectando el repositorio de GitHub y configurando las variables de entorno para producción.",
+      "Excelente vídeo de referencia: https://www.youtube.com/watch?v=MWT-bVpUiNs",
     ],
   },
   {
     title: "Proximamente",
     github: "https://github.com/loremipsum/dolorapp",
     description: [
-      "Morbi in sem quis dui placerat ornare.",
-      "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam.",
-      "Praesent dapibus, neque id cursus faucibus.",
-      "Fusce feugiat malesuada odio.",
-      "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.",
+      "Proximamente.",
+      //"Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam.",
+      //"Praesent dapibus, neque id cursus faucibus.",
+      //"Fusce feugiat malesuada odio.",
+      //"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.",
     ],
   },
 ];
@@ -111,7 +117,7 @@ export const awards = [
     type: "International",
     position: "First Place",
   },
-  {
+  /*{
     name: "Dolor Sit Amet Prize",
     issuer: "Ipsum Foundation",
     date: "Feb 2021",
@@ -152,5 +158,5 @@ export const awards = [
     date: "Jul 2022",
     type: "National",
     position: "Most Impactful Hack",
-  },
+  },*/
 ];
