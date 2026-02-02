@@ -13,7 +13,7 @@ export const workExperience = [
   {
     company: "Sybven",
     location: "Caracas Venezuela",
-    position: "Especilista de Sistemas",
+    position: "Especialista de Sistemas",
     period: "Mar. 2025 - Nov. 2025",
     achievements: [
       "Especialista de las plataformas DANAConnect y Kore.ai",
