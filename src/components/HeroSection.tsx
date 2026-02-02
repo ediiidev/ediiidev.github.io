@@ -64,15 +64,15 @@ export default function HeroSection() {
                 📍 {personalInfo.location}
               </motion.div>
 
-              <motion.a
+               {/*<motion.a
                 href={`mailto:${personalInfo.email}`}
                 className="flex items-center text-sm text-muted-foreground hover:text-foreground transition-colors"
                 variants={childVariants}
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
-                <Mail className="h-4 w-4 mr-2" />
+               <Mail className="h-4 w-4 mr-2" />
                 ✉️ {personalInfo.email}
-              </motion.a>
+              </motion.a>*/}
 
               <motion.a
                 href={personalInfo.github}
