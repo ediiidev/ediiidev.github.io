@@ -56,8 +56,8 @@ export const education = [
 export const skills = {
   programmingLanguages: [
     "JavaScript",
-    "Python",
     "TypeScript",
+    "Python",
   ],
   frontendDevelopment: [
     "HTML5",
@@ -66,13 +66,13 @@ export const skills = {
     "Nextjs",
     "Tailwind CSS",
   ],
-  backendDevelopment: ["Python", "NodeJS"],
-  databaseAndStorage: ["SQL", "MySQL", "PostgreSQL"],
+  backendDevelopment: ["NodeJS","Express", "Python"],
+  databaseAndStorage: ["SQL", "PostgreSQL"],
   cloudAndDevOps: ["AWS, Ducker"],
   toolsAndServices: [
+    "Git / GitHub",
     "DANAConnect",
     "Kore.ai",
-    "n8n",
     //"SitValidator",
     //"AmetMonitor",
     //"ConsecteturPanel",
@@ -82,18 +82,19 @@ export const skills = {
 
 export const projects = [
   {
-    title: "AI Voice Studio SaaS",
-    github: "https://github.com/ediiidev/ai-voice-studio-app",
+    title: "SaaS Feedback System",
+    github: "https://github.com/ediiidev/saas-feedback-system",
     description: [
-      "Configuración del Entorno y Tecnologías: Se utiliza Next.js 16 como marco principal, junto con Tailwind CSS para el diseño de la interfaz de usuario.",
-      "Gestión de Base de Datos: Se implementa Neon (PostgreSQL), una base de datos sin servidor (serverless) para almacenar datos de usuarios, proyectos y manejar créditos.",
-      "Autenticación de Usuarios: Se integra Better Auth, una solución gratuita que permite inicios de sesión mediante correo electrónico, contraseña y redes sociales.",
-      "Funcionalidad de Texto a Voz (TTS): El núcleo del proyecto es la generación de voces naturales mediante IA, con soporte para 22 idiomas diferentes, incluyendo español, japonés y francés.",
-      "Personalización de Voz: Se enseña cómo añadir emociones a las voces y cómo permitir que los usuarios carguen sus propios archivos de voz para proyectos personalizados.",
-      "Sistema de Monetización y Créditos: Se configura un sistema donde el uso de caracteres se traduce en créditos (por ejemplo, 100 caracteres equivalen a 1 crédito).",
-      "Procesamiento de Pagos: Se utiliza Polar para gestionar las suscripciones de los clientes, crear productos y aplicar códigos de descuento.",
-      "Despliegue (Deployment): Finalmente, se explica cómo desplegar la aplicación completa en Vercel, conectando el repositorio de GitHub y configurando las variables de entorno para producción.",
-      "Excelente vídeo de referencia: https://www.youtube.com/watch?v=MWT-bVpUiNs",
+      "Descripción: Sistema de Gestión de Feedback para SaaS, aplicación donde los usuarios pueden enviar sugerencias de mejora (feedback) y se pueden administrar desde un panel",
+      "Configuración del Entorno y Tecnologías: React + TypeScript con Vite, utilizando Tailwind CSS para una interfaz moderna y responsiva, Arquitectura basada en Node.js y Express, configurada con rutas RESTful.",
+      "Gestión de Base de Datos: PostgreSQL alojado en Supabase, conectada mediante la librería oficial de `@supabase/supabase-js` para asegurar la conectividad a través de protocolos HTTPS seguros, esquema relacional optimizado para feedbacks con campos para nombre, categoría (SaaS, UI, Error) y mensajes.",
+      //"Autenticación de Usuarios: Se integra Better Auth, una solución gratuita que permite inicios de sesión mediante correo electrónico, contraseña y redes sociales.",
+      //"Funcionalidad de Texto a Voz (TTS): El núcleo del proyecto es la generación de voces naturales mediante IA, con soporte para 22 idiomas diferentes, incluyendo español, japonés y francés.",
+      //"Personalización de Voz: Se enseña cómo añadir emociones a las voces y cómo permitir que los usuarios carguen sus propios archivos de voz para proyectos personalizados.",
+     // "Sistema de Monetización y Créditos: Se configura un sistema donde el uso de caracteres se traduce en créditos (por ejemplo, 100 caracteres equivalen a 1 crédito).",
+      //"Procesamiento de Pagos: Se utiliza Polar para gestionar las suscripciones de los clientes, crear productos y aplicar códigos de descuento.",
+     // "Despliegue (Deployment): Finalmente, se explica cómo desplegar la aplicación completa en Vercel, conectando el repositorio de GitHub y configurando las variables de entorno para producción.",
+      //"Excelente vídeo de referencia: https://www.youtube.com/watch?v=MWT-bVpUiNs",
     ],
   },
   {
@@ -119,7 +120,7 @@ export const awards = [
   },
   {
     name: "Python Developer",
-    issuer: "SoloLear",
+    issuer: "SoloLearn",
     date: "Feb 2026",
     type: "Internacional",
     position: "Online",
