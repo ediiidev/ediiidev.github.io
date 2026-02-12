@@ -98,10 +98,12 @@ export const projects = [
     ],
   },
   {
-    title: "Proximamente",
-    github: "https://github.com/loremipsum/dolorapp",
+    title: "Dashboard de Inventario",
+    github: "https://github.com/ediiidev/Dashboard-inventarios",
     description: [
-      "Proximamente.",
+      "Descripción: Dashboard de inventario,  para gestionar \"productos\" asociados a \"categorias\"",
+      "Configuración del Entorno y Tecnologías: React con Vite, utilizando Tailwind CSS para una interfaz moderna y responsiva, Arquitectura basada en Node.js y Express, configurada con rutas RESTful.",
+      "Gestión de Base de Datos: PostgreSQL alojado en Supabase, conectada mediante la librería oficial de `@supabase/supabase-js` para asegurar la conectividad a través de protocolos HTTPS seguros, esquema n:1",
       //"Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam.",
       //"Praesent dapibus, neque id cursus faucibus.",
       //"Fusce feugiat malesuada odio.",
