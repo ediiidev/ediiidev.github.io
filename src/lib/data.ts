@@ -6,11 +6,21 @@ export const personalInfo = {
   linkedin: "https://www.linkedin.com/in/ediliani-kumquel-358043203",
   profilePicture: "/profile.jpg",
   heroDescription:
-    "Soy Ediliani Kumquel, Ingeniera de Sistemas egresada de la Universidad Nacional Experimental Politécnica 'Antonio José de Sucre' Vicerrectorado 'Luis Caballero Mejías', donde adquirí conocimientos de diseño, programación, análisis y gestión de sistemas informáticos. Además, tengo varias certificaciones de LinkedIn en desarrollo web full-stack, que me han permitido desarrollar aplicaciones web dinámicas y escalables. Me considero una persona proactiva, creativa, colaborativa y comprometida con la excelencia y el aprendizaje continuo. Mi objetivo es seguir creciendo como profesional y como persona, y aportar mi experiencia y conocimientos al éxito de los proyectos en que participo. Entre mis hobbies están el running, bailar, la música, las manualidades y muchos más.",
+    "Soy Ediliani Kumquel, Ingeniera de Sistemas egresada con honores de la Universidad Nacional Experimental Politécnica 'Antonio José de Sucre' Vicerrectorado 'Luis Caballero Mejías', donde adquirí conocimientos de diseño, programación, análisis y gestión de sistemas informáticos. Más de 4 años de experiencia en el sector de TI, donde he desarrollado aplicaciones web y movil, asistentes virtuales inteligentes, Automatización de procesos, defensa técnica en preventa, postventa y capacitadora de las herramientas aprendidas. Me considero una persona proactiva, organizada, responsable con capacidad de resolución de problemas.",
 };
 
 export const workExperience = [
   {
+    company: "KS2",
+    location: "Caracas Venezuela",
+    position: "Desarrolladora Full Stack",
+    period: "Mar. 2026 - Actualidad",
+    achievements: [
+      "Desarrolladora de aplicaciones web / movil a medida",
+      "Tecnología Frontend: React, HTML, CSS, Tailwind CSS, JavaScript",
+      "Tecnología Banckend: Node.js con Express, PostgreSQL y Sequelize.",
+    ],
+  },{
     company: "Sybven",
     location: "Caracas Venezuela",
     position: "Especialista de Sistemas",
@@ -73,7 +83,7 @@ export const skills = {
     "Git / GitHub",
     "DANAConnect",
     "Kore.ai",
-    //"SitValidator",
+    "n8n",
     //"AmetMonitor",
     //"ConsecteturPanel",
     //"AdipiscingTrigger",
