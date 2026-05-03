@@ -6,7 +6,7 @@ export const personalInfo = {
   linkedin: "https://www.linkedin.com/in/ediliani-kumquel-358043203",
   profilePicture: "/profile.jpg",
   heroDescription:
-    "Soy Ediliani Kumquel, Ingeniera de Sistemas egresada con honores de la Universidad Nacional Experimental Politécnica 'Antonio José de Sucre' Vicerrectorado 'Luis Caballero Mejías', donde adquirí conocimientos de diseño, programación, análisis y gestión de sistemas informáticos. Más de 4 años de experiencia en el sector de TI, donde he desarrollado aplicaciones web y movil, asistentes virtuales inteligentes, Automatización de procesos, defensa técnica en preventa, postventa y capacitadora de las herramientas aprendidas. Me considero una persona proactiva, organizada, responsable con capacidad de resolución de problemas.",
+    "Ingeniera de Sistemas egresada con honores de la UNEXPO. Con más de 4 años de experiencia en el sector de TI. Mi trayectoria integra el desarrollo Full Stack de aplicaciones web y móviles, creación de asistentes virtuales conversacionales y automatización de flujos estratégicos. Cuento con una sólida base en consultoría técnica, liderando etapas de preventa, postventa y capacitación de usuarios finales. Me distingo por mi compromiso con el aprendizaje continuo y una alta capacidad de colaboración en equipos multidisciplinarios.",
 };
 
 export const workExperience = [
